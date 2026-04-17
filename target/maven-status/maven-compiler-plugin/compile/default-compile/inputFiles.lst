@@ -5,6 +5,7 @@
 /Users/krok/Git/helloSpringJpa/src/main/java/kr/ac/hansung/cse/exception/GlobalExceptionHandler.java
 /Users/krok/Git/helloSpringJpa/src/main/java/kr/ac/hansung/cse/exception/ProductNotFoundException.java
 /Users/krok/Git/helloSpringJpa/src/main/java/kr/ac/hansung/cse/model/Category.java
+/Users/krok/Git/helloSpringJpa/src/main/java/kr/ac/hansung/cse/model/CategoryForm.java
 /Users/krok/Git/helloSpringJpa/src/main/java/kr/ac/hansung/cse/model/Product.java
 /Users/krok/Git/helloSpringJpa/src/main/java/kr/ac/hansung/cse/model/ProductDetail.java
 /Users/krok/Git/helloSpringJpa/src/main/java/kr/ac/hansung/cse/model/ProductForm.java
