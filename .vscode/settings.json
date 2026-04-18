@@ -1,3 +1,21 @@
 {
-    "java.compile.nullAnalysis.mode": "automatic"
+    "java.compile.nullAnalysis.mode": "automatic",
+    // 🔴 기본 자동완성 완전 끄기
+    "editor.quickSuggestions": false,
+    "editor.suggestOnTriggerCharacters": false,
+
+    // 🔴 인라인 자동완성 (AI 포함) 끄기
+    "editor.inlineSuggest.enabled": false,
+
+    // 🔴 자동 import 추천 끄기
+    "javascript.suggest.autoImports": false,
+    "typescript.suggest.autoImports": false,
+    "python.analysis.autoImportCompletions": false,
+
+    // 🔴 (선택) Java 자동완성 약화
+    "java.completion.enabled": false,
+
+    // 🔴 Copilot (AI) 자동완성 끄기
+    "github.copilot.inlineSuggest.enable": false
+
 }
