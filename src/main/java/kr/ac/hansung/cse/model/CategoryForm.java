@@ -4,8 +4,10 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.NoArgsConstructor;
 
 @Getter @Setter
+@NoArgsConstructor
 public class CategoryForm {
     @NotBlank(message = "카테고리 이름을 입력하세요")
     @Size(max = 50, message = "50자내로 입력하세요")

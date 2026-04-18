@@ -26,7 +26,9 @@ public class CategoryService {
         // 중복 검사: 이름이 이미 있으면 예외 발생
         categoryRepository.findByName(name)
             .ifPresent(c -> { throw new DuplicateCategoryException(name); });
-        return categoryRepository.save(new Category(name)); }
+
+            Category category = new Category(name);
+        return categoryRepository.save(category); }
  
     @Transactional
     public void deleteCategory(Long id) {
